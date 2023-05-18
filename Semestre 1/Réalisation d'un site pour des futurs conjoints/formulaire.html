@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q&A</title>
+	<link rel="stylesheet" type="text/css" href="accueil.css">
+</head>
+
+
+
+<body>
+
+
+	<!--haut de page --> 
+	<header class="head">
+		<!--menu de navigation-->
+		<nav class="menu_nav">
+			
+			<ul>
+				<li class="btn">
+					<a href="accueil.html">
+					Accueil
+				</a>
+					
+				</li>
+				
+				<li class="btn">
+					<a href="organisation.html">
+					Organisation du mariage
+				</a>
+				</li>
+				<li class="btn">
+					<a href="#">
+					Formulaire
+				</a>
+				</li>
+				<li class="btn">
+					<a href="Renseignements.html">
+					Renseignements
+				</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="logo" >
+		<img src="logo.png" width="120px" height="120px" alt="logo du site">
+		</div>
+		
+	</header>
+
+<body background="photo.jpg"></body>
+	
+
+<form method="post" action="traitement.php">
+	<div class="invite">
+
+	<p>
+		<strong>Cette partie est dédiée aux invités:-<br>Tu devais remplir ce formulaire si tu viendras à la cérémonie de maraige</strong><br><br>
+		<label for="nom">Ton nom</label> : <input type="text" name="nom" id="nom" placeholder="ex:ELABASY" />
+
+		<br/><br>
+
+		<label for="prenom">Ton prénom</label> : <input type="text" name="prenom" id="prenom" placeholder="ex:Amgad">
+		<br><br>
+
+		<label for="age">Ton âge  </label> : 
+		<input type="date" name="age" id="age" placeholder="05/08/1985 par exemple"></input><br><br>
+
+		<label for="adresse">Ton adresse de domicile</label> : <input type="adress" name="adresse" id="adresse" placeholder="ex: 4 Place de Barcelone"><br><br>
+
+		<label for="ville">De quelle ville viens tu ? </label><input type="text" name="ville" id="ville" placeholder="ex : Paris"><br><br>
+
+		<label for="choix">Va tu aller à la mairie, à l'église ou directement à la salle ? </label> <input type="text" id="choix" 
+		name="choix" placeholder="par exempl: maire"> <br>
+
+		<br>
+
+		<label for="heure">Quelle est l'heure de ton arrivée</label> : <input type="time" name="heure" id="heure" placeholder="ex: 13:37"><br><br>
+		</p>
+
+	
+		
+	</div>
+
+
+	<div class="andalousie">
+	<p>
+		<h1><strong>Notre voyage de noces</strong></h1>
+		Nous avons décidé qu'on fait notre lune de miel en <strong><span class="and">Andalousie</span></strong> au sud de l'Espagne<br>
+		Nous allons passer le voyage au bord de la mer à <strong>La plage d’Artola-Cabopino à Marbella</strong><br>Nous allons aussi visiter <strong>El Terril de Séville</strong> : ce point culminant de la province<br> de Séville est situé à une altitude de 1121 mètres
+		et <br>pour aussi visiter la ville de<strong>Séville.</strong><br><br>
+
+	<label for="voyage">Donne nous ton avis sur le voyage</label>: <br><textarea name="voyage" id="voyage" rows="5" cols="50"></textarea> 
+
+	</div>
+
+	<div class="repas">
+
+	<p>
+		<strong><span class="aide">pour aider le traiteur sur le nombre de repas à préparer :</span></strong><br><br>
+
+
+		<label for="aliment">Quels aliments aimes tu manger ?</label>
+		<select name="aliment" id="aliment">
+			<optgroup label="poisson">
+			
+			<option value="Filet de Sandre">Filet de Sandre</option>	
+			<option value="Daurade Grillée">Daurade Grillée</option>
+			<option value="Lotte">Lotte</option>
+			<option value="Ecrevisse">Ecrevisse</option>
+
+			</optgroup>
+			<optgroup label="viande">
+				
+				<option value="Canard">Canard</option>
+				<option value="viande de boeuf">viande de boeuf</option>
+				<option value="Tournedos Grillé">Tournedos Grillé</option>
+			</optgroup>
+			<optgroup label="dessert">
+				<option value="Pièce montée">Pièce montée</option>
+				<option value="Nougat Glacé sur son Coulis de Framboises">Nougat Glacé sur son Coulis de Framboises</option>
+				<option value="Vacherin Vanillé Frais et son Coulis de Framboises">Vacherin Vanillé Frais et son Coulis de Framboises</option>
+				<option value="Omelette Norvégienne">Omelette Norvégienne</option>
+			</optgroup>
+			
+		</select>
+	</p>
+		
+
+	</div>
+
+<div class="achat">
+	
+	<p>
+		<strong><span class="achat_mot">Pour acheter le miel de Sophie, compléte le formulaire ci-dessous :-</span></strong><br><br>
+		<label for="nom">Nom</label> : <input type="text" name="nom" id="nom" placeholder="ex:ELAbasy" />
+
+		<br/><br>
+
+		<label for="prenom">Prénom</label> : <input type="text" name="prenom" id="prenom" placeholder="ex:Amgad">
+		<br><br>
+
+
+		<label for="adresse">Adresse </label> : <input type="adress" name="adresse" id="adresse" placeholder="ex: 4 Place de Barcelone"><br><br>
+
+		<label for="code_postale">Code Postale</label> : <input type="text" name="code_postale" id="code_postale" placeholder="ex : 75016"><br><br>
+
+		<label for="commune">Commune</label> : <input type="text" name="commune" id="commune" placeholder="ex : Paris"><br><br>
+
+		<label for="quantite">La quantité de pot de miel que vous voules acheter</label> : <input type="number" name="quantite" id="quantite"><br><br>
+		<input type="submit" name="payer" value="Payer"/>
+
+
+	</p>
+</div>
+
+
+</form>
+
+	<footer class="foot">
+		<div class="copy">
+			<p>&copy; ELABASY Amgad - 2022 - Tous droits réservés</p>
+		</div>
+		<div class="tout">
+		<div class="coordonnées">
+			<h3>Mes coordonnées</h3>
+			<ul class="liste_coordonnee">
+				<li>Elabasy Amgad</li>
+				<li>Apprenti développeur web</li>
+				<li><span class="iut"><a href="https://www.univ-paris13.fr/">IUT Villtaneuse à l'USPN</a></span></li>
+				<li>4 Place de Barcelone 75016 Paris</li>
+				
+
+			</ul>
+		</div>
+
+		<div class="contact">
+
+			<ul class="contact">
+				<h3>Contactez-moi</h3>
+				<li>06 67 55 12 21</li>
+				<li><a href="https://www.linkedin.com/">linkedin.com/in/amgad-elabasy</a></li>
+				<li>amgadelabasy@yahoo.com</li>
+			<ul/>
+				
+
+			
+		</div>
+		</div>
+	</footer>
+
+</body>
+</html>
