@@ -1,5 +1,5 @@
 # Projets-BUT-Informatique 
-<img src="path/to/your/logo.png" alt="Logo" width="300" height="300">
+<img src="logoUSPN.jpeg" alt="Logo" width="300" height="300">
 
 ## Introduction
 Welcome to the Projets-BUT-Informatique repository! Here, you will find a collection of projects that I have completed during the first two years of my studies at Université Sorbonne Paris Nord. This repository showcases both individual and group projects, allowing me to develop valuable skills in both teamwork and autonomy.
